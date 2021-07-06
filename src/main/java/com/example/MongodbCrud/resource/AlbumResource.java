@@ -22,7 +22,7 @@ public class AlbumResource {
     }
 
     @GetMapping("/{id}")
-    public Optional<Album> getUserById(@PathVariable(name = "id") String id){
+    public Optional<Album> getAlbumById(@PathVariable(name = "id") String id){
         return albumService.getAlbumeById(id);
     }
 

@@ -17,7 +17,7 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public User saveAlbum(User user) {
+    public User saveUser(User user) {
         return userRepository.save(user);
     }
 }

@@ -22,6 +22,6 @@ public class UserResource {
 
     @PostMapping
     public User saveAlbum(@RequestBody User user){
-        return userService.saveAlbum(user);
+        return userService.saveUser(user);
     }
 }

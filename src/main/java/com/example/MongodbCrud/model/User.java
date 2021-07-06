@@ -8,12 +8,12 @@ public class User {
     private String id;
     private String name;
     private String email;
-    private String ProfilePhotoUrl;
+    private String profilePhotoUrl;
 
     public User(String name, String email, String profilePhotoUrl) {
         this.name = name;
         this.email = email;
-        ProfilePhotoUrl = profilePhotoUrl;
+        this.profilePhotoUrl = profilePhotoUrl;
     }
 
     public String getId() {
@@ -21,7 +21,7 @@ public class User {
     }
 
     public void setId(String id) {
-        id = id;
+        this.id = id;
     }
 
     public String getName() {
@@ -41,10 +41,10 @@ public class User {
     }
 
     public String getProfilePhotoUrl() {
-        return ProfilePhotoUrl;
+        return profilePhotoUrl;
     }
 
     public void setProfilePhotoUrl(String profilePhotoUrl) {
-        ProfilePhotoUrl = profilePhotoUrl;
+        this.profilePhotoUrl = profilePhotoUrl;
     }
 }
